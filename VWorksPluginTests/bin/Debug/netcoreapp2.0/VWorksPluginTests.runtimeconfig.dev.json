@@ -1,9 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\tlee.CALICOLABS\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\tlee.CALICOLABS\\.nuget\\packages",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-    ]
-  }
-}
