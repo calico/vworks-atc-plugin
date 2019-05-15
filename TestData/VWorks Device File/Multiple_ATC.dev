@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='ASCII' ?>
+<Velocity11 file='Device_Data' md5sum='af7026e5e527007164323fee52370166' version='2.0' >
+	<Devices >
+		<Device DevicePreviousStatus='0' Disable='0' Name='Thermo ATC - 1' Object_Type='ATC' >
+			<Locations >
+				<Location DeadlockAvoidance='1' Door='' Name='Default Location' >
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='1' Door='' Name='Nest' >
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+			</Locations>
+			<Parameters >
+				<Parameter Name='IP Address' Value='169.254.65.231' />
+				<Parameter Name='Host Name' Value='' />
+			</Parameters>
+		</Device>
+		<Device DevicePreviousStatus='0' Disable='1' Name='Thermo ATC - 2' Object_Type='ATC' >
+			<Locations >
+				<Location DeadlockAvoidance='1' Door='' Name='Default Location' >
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='1' Door='' Name='Nest' >
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+			</Locations>
+			<Parameters >
+				<Parameter Name='IP Address' Value='169.254.65.231' />
+				<Parameter Name='Host Name' Value='' />
+			</Parameters>
+		</Device>
+	</Devices>
+</Velocity11>

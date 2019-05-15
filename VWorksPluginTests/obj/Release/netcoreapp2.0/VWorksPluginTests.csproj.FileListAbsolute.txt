@@ -1,0 +1,100 @@
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\NUnit3.TestAdapter.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\NUnit3.TestAdapter.pdb
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\nunit.engine.netstandard.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\Mono.Cecil.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\DeviceControllerTab.xaml.cs
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\ProtocolEditorTab.xaml.cs
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\ATCDialog.xaml.cs
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\VWorksPluginTests.deps.json
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\VWorksPluginTests.runtimeconfig.json
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\VWorksPluginTests.runtimeconfig.dev.json
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\VWorksPluginTests.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\VWorksPluginTests.pdb
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\ATCVWorksPlugin.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\log4net.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\atc-api-1.0.0.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\FontAwesome.WPF.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Core.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\Interop.IWorksDriver.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\stdole.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\LiveCharts.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.Runtime.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Text.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Security.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Util.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.XML.API.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.Runtime.JNI.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Management.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Naming.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Beans.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Media.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Remoting.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Corba.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.AWT.WinForms.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Charsets.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Misc.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\ATCVWorksPlugin.dll.config
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\log4net.xml
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\FontAwesome.WPF.xml
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\LiveCharts.pdb
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\bin\Release\netcoreapp2.0\LiveCharts.xml
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\obj\Release\netcoreapp2.0\VWorksPluginTests.csprojAssemblyReference.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\obj\Release\netcoreapp2.0\VWorksPluginTests.csproj.CoreCompileInputs.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\obj\Release\netcoreapp2.0\VWorksPluginTests.AssemblyInfoInputs.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\obj\Release\netcoreapp2.0\VWorksPluginTests.AssemblyInfo.cs
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\obj\Release\netcoreapp2.0\VWorksPluginTests.csproj.CopyComplete
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\obj\Release\netcoreapp2.0\VWorksPluginTests.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\VWorksPluginTests\obj\Release\netcoreapp2.0\VWorksPluginTests.pdb
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\nunit.engine.netstandard.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\log4net.ATC.config.xml
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\NUnit3.TestAdapter.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\NUnit3.TestAdapter.pdb
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\VWorksPluginTests.deps.json
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\VWorksPluginTests.runtimeconfig.json
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\VWorksPluginTests.runtimeconfig.dev.json
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\VWorksPluginTests.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\VWorksPluginTests.pdb
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\ATCVWorksPlugin.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\log4net.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\atc-api-1.0.0.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\Interop.IWorksDriver.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\stdole.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\LiveCharts.Wpf.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\FontAwesome.WPF.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Core.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\LiveCharts.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.Runtime.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Text.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Security.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Util.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.XML.API.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.Runtime.JNI.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Management.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Naming.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Beans.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Media.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Remoting.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Corba.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.AWT.WinForms.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Charsets.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\IKVM.OpenJDK.Misc.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\ATCVWorksPlugin.dll.config
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\log4net.xml
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\LiveCharts.Wpf.pdb
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\LiveCharts.Wpf.xml
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\FontAwesome.WPF.xml
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\LiveCharts.pdb
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\bin\Release\netcoreapp2.0\LiveCharts.xml
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\obj\Release\netcoreapp2.0\VWorksPluginTests.csprojAssemblyReference.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\obj\Release\netcoreapp2.0\VWorksPluginTests.csproj.CoreCompileInputs.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\obj\Release\netcoreapp2.0\VWorksPluginTests.AssemblyInfoInputs.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\obj\Release\netcoreapp2.0\VWorksPluginTests.AssemblyInfo.cs
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\obj\Release\netcoreapp2.0\VWorksPluginTests.csproj.CopyComplete
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\obj\Release\netcoreapp2.0\VWorksPluginTests.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\VWorksPluginTests\obj\Release\netcoreapp2.0\VWorksPluginTests.pdb

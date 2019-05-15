@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protocol>
+    <coverTemperature>105.0</coverTemperature>
+    <runMode>FAST</runMode>
+    <sampleVolume>10.0</sampleVolume>
+    <stage name="Main" numOfCycles="1">
+        <step>
+            <hold duration="10">
+                <autoDeltaStartCycle>2</autoDeltaStartCycle>
+                <durationDelta>0</durationDelta>
+            </hold>
+            <ramp rate="100.0" rateUnit="PERCENTAGE" temperature="90.0">
+                <autoDeltaStartCycle>2</autoDeltaStartCycle>
+                <temperatureDelta>0.0</temperatureDelta>
+            </ramp>
+        </step>
+        <step>
+            <hold duration="15">
+                <autoDeltaStartCycle>2</autoDeltaStartCycle>
+                <durationDelta>0</durationDelta>
+            </hold>
+            <ramp rate="100.0" rateUnit="PERCENTAGE" temperature="60.0">
+                <autoDeltaStartCycle>2</autoDeltaStartCycle>
+                <temperatureDelta>0.0</temperatureDelta>
+            </ramp>
+        </step>
+        <step>
+            <hold duration="25">
+                <autoDeltaStartCycle>2</autoDeltaStartCycle>
+                <durationDelta>0</durationDelta>
+            </hold>
+            <ramp rate="100.0" rateUnit="PERCENTAGE" temperature="72.0">
+                <autoDeltaStartCycle>2</autoDeltaStartCycle>
+                <temperatureDelta>0.0</temperatureDelta>
+            </ramp>
+        </step>
+    </stage>
+</protocol>

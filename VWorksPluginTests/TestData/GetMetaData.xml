@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='ASCII' ?>
+<Velocity11 file='MetaData' version='1.0'>
+	<MetaData >
+		<Device Description='Velocity11 PlateLoc Sealer' MiscAttributes='0' Name='PlateLoc' PreferredTab='Plate Handling'>
+			<Parameters >
+				<Parameter Name='Profile' Style='0' Type='2' />
+			</Parameters>
+			<Locations >
+				<Location Group='0' Name='Stage' Offset='0' Type='1' />
+			</Locations>
+			<StorageDimensions DirectStorageAccess='0' />
+		</Device>
+		<Versions>
+			<Version Author='Joe Smith' Company='ABC Company' Date='April 3, 2006' Name='PlateLoc' Version='3.0.0' />
+		</Versions>
+		<Commands>
+			<Command Compiler='0' Description='Seal a plate' Editor='2' Name='Seal'>
+				<Parameters>
+					<Parameter Name='Seal Time' Style='0' Type='12' Units='s' Value='1.2'>
+						<Ranges>
+							<Range Value='0.5' />
+							<Range Value='12' />
+						</Ranges>
+					</Parameter>
+					<Parameter Name='Seal Temperature' Style='0' Type='8' Units='C' Value='170'>
+						<Ranges>
+							<Range Value='20' />
+							<Range Value='235' />
+						</Ranges>
+					</Parameter>
+				</Parameters>
+			</Command>
+		</Commands>
+	</MetaData>
+</Velocity11>

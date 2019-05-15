@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='ASCII' ?>
+<Velocity11 file='Device_Data' md5sum='01ec65c2bc0554991d00dce56f8f66ed' version='2.0' >
+	<Devices >
+		<Device DevicePreviousStatus='0' Disable='0' Name='Agilent Phantom Robot - 1' Object_Type='Phantom Robot' >
+			<Locations >
+				<Location DeadlockAvoidance='1' Door='' Name='Default Location' >
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+			</Locations>
+			<Parameters >
+				<Parameter Name='Profile' Value='TestProfile' />
+			</Parameters>
+		</Device>
+		<Device DevicePreviousStatus='0' Disable='0' Name='Agilent Phantom Stacker - 1' Object_Type='Phantom Stacker' >
+			<Locations >
+				<Location DeadlockAvoidance='1' Door='' Name='Default Location' >
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='1' Door='' Name='Location' Stack_Height='460' >
+					<Teachpoints >
+						<Teachpoint Name='robot teachpoint' Robot='Agilent Phantom Robot - 1' />
+					</Teachpoints>
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+			</Locations>
+		</Device>
+		<Device DevicePreviousStatus='0' Disable='0' Name='Thermo ATC - 1' Object_Type='ATC' >
+			<Locations >
+				<Location DeadlockAvoidance='1' Door='' Name='Default Location' >
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='0' Door='' Name='Nest' >
+					<Teachpoints >
+						<Teachpoint Name='robot teachpoint' Robot='Agilent Phantom Robot - 1' />
+					</Teachpoints>
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+			</Locations>
+			<Parameters >
+				<Parameter Name='IP Address' Value='169.254.65.231' />
+				<Parameter Name='Host Name' Value='' />
+			</Parameters>
+		</Device>
+		<Device DevicePreviousStatus='0' Disable='1' Name='Thermo ATC - 2' Object_Type='ATC' >
+			<Locations >
+				<Location DeadlockAvoidance='1' Door='' Name='Default Location' >
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='0' Door='' Name='Nest' >
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+			</Locations>
+			<Parameters >
+				<Parameter Name='IP Address' Value='' />
+				<Parameter Name='Host Name' Value='' />
+			</Parameters>
+		</Device>
+	</Devices>
+</Velocity11>

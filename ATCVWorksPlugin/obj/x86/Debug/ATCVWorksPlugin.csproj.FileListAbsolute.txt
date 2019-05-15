@@ -1,0 +1,80 @@
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\ATCVWorksPlugin.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\ATCVWorksPlugin.pdb
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\atc-api-1.0.0.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\log4net.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.Security.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.XML.Bind.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.Naming.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.SwingAWT.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.Beans.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.Media.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.XML.Parse.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.AWT.WinForms.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\log4net.xml
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\ATCDriver.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.Runtime.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.Runtime.JNI.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.Management.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.Remoting.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.Corba.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\IKVM.OpenJDK.Misc.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\ATCDriver.pdb
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\bin\x86\Debug\ATCDriver.dll.config
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csprojAssemblyReference.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\Interop.IWorksDriver.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csproj.ResolveComReference.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\ATCDialog.g.cs
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\DiscoverWindow.g.cs
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin_MarkupCompile.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin_MarkupCompile.lref
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\ATCDialog.baml
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\DiscoverWindow.baml
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.g.resources
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.Properties.Resources.resources
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csproj.GenerateResource.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csproj.CoreCompileInputs.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csproj.CopyComplete
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATCDriver\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.pdb
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\Interop.IWorksDriver.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csproj.ResolveComReference.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\Dialog Window\ATCDialog.g.cs
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\Dialog Window\DiscoverWindow.g.cs
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin_MarkupCompile.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin_MarkupCompile.lref
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\Dialog Window\ATCDialog.baml
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\Dialog Window\DiscoverWindow.baml
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.g.resources
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.Properties.Resources.resources
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csproj.GenerateResource.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csproj.CoreCompileInputs.cache
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csproj.CopyComplete
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.dll
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.pdb
+C:\Users\tlee.CALICOLABS\source\repos\calico\tlee133\ATC VWorks Plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csprojAssemblyReference.cache
+C:\Program Files (x86)\Agilent Technologies\VWorks\Plugins\log4net.ATC.config.xml
+C:\Program Files (x86)\Agilent Technologies\VWorks\Plugins\ATCVWorksPlugin.dll.config
+C:\Program Files (x86)\Agilent Technologies\VWorks\Plugins\ATCVWorksPlugin.dll
+C:\Program Files (x86)\Agilent Technologies\VWorks\Plugins\ATCVWorksPlugin.pdb
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\Interop.IWorksDriver.dll
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csproj.ResolveComReference.cache
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\Dialog Window\ATCDialog.g.cs
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\Dialog Window\DiscoverWindow.g.cs
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin_MarkupCompile.cache
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin_MarkupCompile.lref
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\Dialog Window\ATCDialog.baml
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\Dialog Window\DiscoverWindow.baml
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.g.resources
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.Properties.Resources.resources
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csproj.GenerateResource.cache
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csproj.CoreCompileInputs.cache
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csproj.CopyComplete
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.dll
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.pdb
+C:\Program Files (x86)\Agilent Technologies\VWorks\Plugins\ATCVWorksPlugin.tlb
+C:\Users\tlee.CALICOLABS\source\repos\vworks-atc-plugin\ATCVWorksPlugin\obj\x86\Debug\ATCVWorksPlugin.csprojAssemblyReference.cache

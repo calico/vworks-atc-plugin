@@ -1,0 +1,28 @@
+﻿<Window x:Class="ATCVWorksPlugin.DiscoverWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        xmlns:local="clr-namespace:ATCVWorksPlugin"
+        mc:Ignorable="d"
+        Title="Discover Instruments" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="235"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Double click to select instrument" Margin="10,0" FontSize="14"></Label>
+        <ListView Grid.Row="1" Margin="10,0,10,10" Name="AllInstruments" MouseDoubleClick="instrument_DblClick" FontSize="14">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Host Name" Width="140" DisplayMemberBinding="{Binding HostName}" />
+                    <GridViewColumn Header="IP Address" Width="120" DisplayMemberBinding="{Binding IpAddress}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Grid Grid.Row="1">
+            <fa:ImageAwesome Name="LoadingProgress" Icon="Refresh" Spin="True" Height="50" Width="50" OpacityMask="Azure" Opacity="0.4"/>
+        </Grid>
+    </Grid>
+</Window>
