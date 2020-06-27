@@ -21,6 +21,9 @@ namespace VworksAtcPlugin
                 // reset token and listener
                 _cancelToken = new CancellationTokenSource();
                 _DeviceListener = new ATCListener(_cancelToken);
+
+                //Do we need to re-attach the listener to the atc, ie re-connect?
+                ReconnectToAtc();
             }
         }
 
@@ -59,6 +62,88 @@ namespace VworksAtcPlugin
                     WaitForRunToComplete(token);
                 }
             }
+        }
+
+        public void WaitForTemperature(CancellationToken token, bool WaitForLid, double LidTemp, bool WaitForBlock, double BlockTemp)
+        {
+            try
+            {
+                bool TempReached = false;
+
+                if (!WaitForBlock && !WaitForLid)
+                {
+                    TempReached = true;
+                }
+
+                while (!TempReached)
+                {
+                    System.Diagnostics.Debug.WriteLine("Still waiting for temp: " + _atc.GetInstrumentState());
+
+                    //Restart the Device Listener if needed.  Not sure what might be killing it, but this seems to happen occasionally.  
+                    //if (_DeviceListener == null)
+                    //{
+                    //    _cancelToken = new CancellationTokenSource();
+                    //    _DeviceListener = new ATCListener(_cancelToken);
+                    //}
+
+                    //TODO:  Is this logic right?  I'm not 100% confident...
+                    if (WaitForBlock)
+                    {
+                        if (_DeviceListener.LastBlockTemperature > (BlockTemp - 4) && _DeviceListener.LastBlockTemperature < (BlockTemp + 4))
+                        {
+                            TempReached = true;
+                        }
+                        else
+                        {
+                            TempReached = false;
+                        }
+                    }
+
+                    if (WaitForLid)
+                    {
+                        if (_DeviceListener.LastLidTemperature > (LidTemp - 4) && _DeviceListener.LastLidTemperature < (LidTemp + 4))
+                        {
+                            if (WaitForBlock)
+                            {
+                                //TempReached = TempReached;
+                            }
+                            else
+                            {
+                                TempReached = true;
+                            }
+                        }
+                        else
+                        {
+                            TempReached = false;
+                        }
+                    }
+
+              
+
+                    Thread.Sleep(1000);
+                    if (token.IsCancellationRequested)
+                    {
+                        string msg = "Exiting wait for lid or block to reach temperature.";
+                        log.Info(msg);
+                        break;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log error.  
+                log.Error(ex.ToString());
+
+                // If disconnected retry connection
+                if (!_atc.IsConnected())
+                {
+                    log.Info("Connection Lost. Attempting to reconnect");
+                    ReconnectToAtc();
+                    _DeviceListener = new ATCListener(_cancelToken);
+                    WaitForTemperature(token, WaitForLid, LidTemp, WaitForBlock, BlockTemp);
+                }
+            }
+
         }
 
         /// <summary>

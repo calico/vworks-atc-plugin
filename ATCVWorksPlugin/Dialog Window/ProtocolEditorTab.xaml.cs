@@ -8,7 +8,7 @@ using com.apldbio.pcr.protocol;
 
 namespace VworksAtcPlugin
 {
-    public partial class ATCDialog
+    public partial class ATCDialog : Window
     {
         // Load button click handler: display open file dialog and allow user to select XML file
         private void btnImportFile_Click(object sender, RoutedEventArgs e)

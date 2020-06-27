@@ -15,12 +15,15 @@ namespace VworksAtcPlugin
         public enum ConnectionMode { HOST_NAME, IPV4 };
 
 
+
+
         public InstrumentControl()
         {
         }
 
         public string address { get; set; }
         public string hostname { get; set; }
+
 
         public bool Connect(string instrumentId, ConnectionMode mode, InstrumentListener listener)
         {
@@ -50,6 +53,7 @@ namespace VworksAtcPlugin
                 _atc.connect();
                 this._listener = listener;
                 _atc.addListener(listener);
+                
                 return true;
             }
             else
@@ -67,6 +71,9 @@ namespace VworksAtcPlugin
         {
             if (null != this._atc)
             {
+                SetBlockTemperature(false, 25);
+                SetLidTemp(false, 25);
+
                 if (this._listener != null)
                 {
                     _atc.removeListener(this._listener);
@@ -126,6 +133,33 @@ namespace VworksAtcPlugin
             if (_atc != null)
             {
                 _atc.stopRun();
+            }
+        }
+
+
+        public void SetLidTemp(bool Enabled, double Temperature)
+        {
+            if (_atc != null)
+            {
+                IdleCoverSetting idleCoverSetting = new IdleCoverSetting();
+
+                idleCoverSetting.setEnabled(Enabled);
+                idleCoverSetting.setTemperature(Temperature);
+
+                _atc.setIdleCoverSetting(idleCoverSetting);
+            }
+        }
+
+        public void SetBlockTemperature(bool Enabled, double Temperature)
+        {
+            if (_atc != null)
+            {
+                IdleBlockSetting idleBlockSetting = new IdleBlockSetting();
+
+                idleBlockSetting.setEnabled(Enabled);
+                idleBlockSetting.setTemperature(Temperature);
+
+                _atc.setIdleBlockSetting(idleBlockSetting);
             }
         }
 

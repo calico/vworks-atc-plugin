@@ -1,11 +1,10 @@
-﻿<Window x:Class="ATCVWorksPlugin.ATCDialog"
+﻿<Window x:Class="VworksAtcPlugin.ATCDialog"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:fa="http://schemas.fontawesome.io/icons/"
-        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"        
-        xmlns:local="clr-namespace:ATCVWorksPlugin"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"    
         mc:Ignorable="d"
         Title="Thermo ATC Diagnostics" Height="750" Width="1100" FontSize="14" ResizeMode="NoResize">
 

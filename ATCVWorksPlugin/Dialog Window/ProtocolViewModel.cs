@@ -43,7 +43,7 @@ namespace VworksAtcPlugin
             Stages = AbstractStageModels(ProtocolModel.Tcprotocol.getStages());
             ProtocolRunModes = new ObservableCollection<RunMode>()
             {
-                RunMode.FAST, RunMode.STANDARD
+                RunMode.FAST//, RunMode.STANDARD
             };
         }
 

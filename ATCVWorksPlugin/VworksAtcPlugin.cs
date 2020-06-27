@@ -12,9 +12,14 @@ namespace VworksAtcPlugin
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         // Device Defaults:        
-        enum _COMMANDS { OPEN, CLOSE, START, STOP, PAUSE, RESUME };        
+        enum _COMMANDS { OPEN, CLOSE, START, STOP, PAUSE, RESUME, SETTEMP };        
         private const string DEFAULT_PROTOCOL = "Protocol File - 1";
         private const string PROTOCOL_FILE_PATH = "Protocol File Path";
+        private const string LID_TEMPERATURE = "Lid Temperature";
+        private const string LID_TEMP_CONTROL_ENABLE = "Enable Lid Temp Control";
+        private const string BLOCK_TEMPERATURE = "Block Temperature";
+        private const string BLOCK_TEMP_CONTROL_ENABLE = "Enable Block Temp Control";
+        private const string WAIT_FOR_TEMP_CONTROL = "Wait For Temperature";
         private const string IP_ADDRESS = "IP Address";
         private const string HOST_NAME = "Host Name";
         private const bool PLATE_IS_NOT_PRESENT = false;
@@ -31,7 +36,7 @@ namespace VworksAtcPlugin
         private bool _IsPlatePresent;
         private CancellationTokenSource _cancelToken;
 
-        
+
 
         /// <summary>
         /// Device Constructor. Define MetaData, Commands, Device, and Version here.
@@ -44,20 +49,20 @@ namespace VworksAtcPlugin
                 MetaData = new MetaDataElement
                 {
                     Device = new DeviceElement(),
-                    Commands = new CommandElement[Enum.GetNames(typeof(_COMMANDS)).Length] 
+                    Commands = new CommandElement[Enum.GetNames(typeof(_COMMANDS)).Length]
                 }
             };
 
             // Define Device Commands
             var _commands = Enum.GetNames(typeof(_COMMANDS));
             for (int i = 0; i < _commands.Length; i++)
-            {               
+            {
                 _vworks.MetaData.Commands[i] = new CommandElement
                 {
                     Name = _commands[i],
                     Description = _commands[i] + " ATC",
                     ProtocolName = DEFAULT_PROTOCOL,
-                    VisibleAvailability = (_commands[i] == "PAUSE" || _commands[i] == "RESUME") ? 0:1,
+                    VisibleAvailability = (_commands[i] == "PAUSE" || _commands[i] == "RESUME") ? 0 : 1,
                     Editor = (int)(CommandElement.EditorValues.Editor_Primary),
                     TaskRequiresLocation = (int)CommandElement.TaskLocation.NotRequired,
                     RequiresRefresh = 1
@@ -71,7 +76,47 @@ namespace VworksAtcPlugin
                 {
                     Name = PROTOCOL_FILE_PATH,
                     Description = "File Path of ATC Protocol",
-                    Type = (int)Parameter.TypeAttribute.UserSpecifyFilePath
+                    Type = (int)Parameter.TypeAttribute.UserSpecifyFilePath,
+                    Scriptable = 1
+
+                }
+            };
+
+            //Command Parameters for lid temp
+            _vworks.MetaData.Commands[(int)_COMMANDS.SETTEMP].Parameters = new Parameter[5]
+            {
+                new Parameter
+                {
+                    Name = LID_TEMPERATURE,
+                    Description = "Lid Temperature (C)",
+                    Type = (int)Parameter.TypeAttribute.SpecifyDecimalFraction
+                },
+
+                new Parameter
+                {
+                    Name = LID_TEMP_CONTROL_ENABLE,
+                    Description = "Enable Lid Temp Control",
+                    Type = (int)Parameter.TypeAttribute.CheckBox
+                },
+
+                new Parameter
+                {
+                    Name = BLOCK_TEMPERATURE,
+                    Description = "Block Temperature (C)",
+                    Type = (int)Parameter.TypeAttribute.SpecifyDecimalFraction
+                },
+
+                new Parameter
+                {
+                    Name = BLOCK_TEMP_CONTROL_ENABLE,
+                    Description = "Enable Block Temp Control",
+                    Type = (int)Parameter.TypeAttribute.CheckBox
+                },  
+                new Parameter
+                {
+                    Name = WAIT_FOR_TEMP_CONTROL,
+                    Description = "Wait For Enabled Temperatures",
+                    Type = (int)Parameter.TypeAttribute.CheckBox
                 }
             };
 

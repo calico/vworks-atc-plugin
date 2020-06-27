@@ -18,9 +18,9 @@ using com.apldbio.pcr.exception;
     /// - Run control: Start, pause, resume and abort
     /// </summary>
 
-    public partial class ATCDialog
+    public partial class ATCDialog : Window
     {
-       
+
         // Event handlers
         private void OpenLidBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -37,6 +37,15 @@ using com.apldbio.pcr.exception;
                 ic.CloseLid();
             });
         }
+
+        private void SetLidTempBtn_Click(object sender, RoutedEventArgs e)
+        {
+            InstrumentTaskFactory.StartTask(() =>
+            {
+               
+            });
+        }
+
 
         private void StartRunBtn_Click(object sender, RoutedEventArgs e)
         {

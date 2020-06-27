@@ -78,6 +78,133 @@ namespace VworksAtcPlugin
                         commandsToExecute.Add(Task.Factory.StartNew(() => _atc.ResumeRun()));
                         break;
 
+                    //TODO: Implement new command here: _COMMANDS.SETLIDTEMP
+                    case nameof(_COMMANDS.SETTEMP):
+                        if (_atc.GetInstrumentState() == InstrumentState.IDLE ||
+                            _atc.GetInstrumentState() == InstrumentState.STANDBY)
+                        {
+                            double LidTemp = -1;
+                            double BlockTemp = -1;
+                            bool LidControl = false;
+                            bool BlockControl = false;
+                            bool WaitForTemp = false;
+
+                            foreach (var param in VworksCommand.Command.Parameters)
+                            {
+                                if (param.Name == LID_TEMPERATURE)
+                                {
+                                    
+                                    if (double.TryParse(param.Value, out LidTemp))
+                                    {
+                                        if (LidTemp > 110 || LidTemp < 30)
+                                        {
+                                            _LastError = "Invalid Lid temperature value. The lid temperature can only be set between 0 and 120 C.  Lid Temp = " + LidTemp;
+                                            return ReturnCode.RETURN_BAD_ARGS;
+                                        }
+
+                                    }
+                                    else
+                                    {
+                                        _LastError = "Invalid lid temperature value. Unable to parse value: " + param.Value;
+                                        return ReturnCode.RETURN_BAD_ARGS;
+                                    }
+                                }
+
+                                if (param.Name == LID_TEMP_CONTROL_ENABLE)
+                                {
+                                    LidControl = param.Value == "1";
+                                }
+
+                                if (param.Name == BLOCK_TEMP_CONTROL_ENABLE)
+                                {
+                                    BlockControl = param.Value == "1";
+                                }
+
+
+                                if (param.Name == BLOCK_TEMPERATURE)
+                                {
+
+                                    if (double.TryParse(param.Value, out BlockTemp))
+                                    {
+                                        if (BlockTemp > 120 || BlockTemp < 0)
+                                        {
+                                            _LastError = "Invalid block temperature value. The block temperature can only be set between 0 and 120 C.  Lid Temp = " + LidTemp;
+                                            return ReturnCode.RETURN_BAD_ARGS;
+                                        }
+
+                                    }
+                                    else
+                                    {
+                                        _LastError = "Invalid block temperature value. Unable to parse value: " + param.Value;
+                                        return ReturnCode.RETURN_BAD_ARGS;
+                                    }
+                                }
+
+                                if (param.Name == WAIT_FOR_TEMP_CONTROL)
+                                {
+                                    WaitForTemp = param.Value == "1";
+                                }
+
+                            }
+
+                            if (WaitForTemp)
+                            {
+                                //Start Listening
+                                CreateTokenAndListener();
+
+                                // Execute Run
+                                commandsToExecute.Add(Task.Factory.StartNew(() =>
+                                {
+                                    try
+                                    {
+                                        _atc.SetLidTemp(LidControl, LidTemp);
+                                        _atc.SetBlockTemperature(BlockControl, BlockTemp);
+                                    }
+                                    catch (PCRException pcrEx)
+                                    {
+                                        _LastError = PCRExceptionFormatter.GetDetailFailureMessage(pcrEx);
+                                        log.Error("ATC run error");
+                                        log.Error(_LastError);
+                                        throw new Exception(_LastError);
+                                    }
+                                }).ContinueWith((prevTask) => WaitForTemperature(_cancelToken.Token, LidControl, LidTemp, BlockControl ,BlockTemp)));
+                            }
+                            else
+                            {
+                                //Start Listening
+                                CreateTokenAndListener();
+
+                                // Execute Run
+                                commandsToExecute.Add(Task.Factory.StartNew(() =>
+                                {
+                                    try
+                                    {
+                                        _atc.SetLidTemp(LidControl, LidTemp);
+                                        _atc.SetBlockTemperature(BlockControl, BlockTemp);
+                                    }
+                                    catch (PCRException pcrEx)
+                                    {
+                                        _LastError = PCRExceptionFormatter.GetDetailFailureMessage(pcrEx);
+                                        log.Error("ATC run error");
+                                        log.Error(_LastError);
+                                        throw new Exception(_LastError);
+                                    }
+                                }));
+
+                            }
+
+                            // Update VWorks log
+                            log.Info("Lid Temperature set to " + LidTemp);
+                            break;
+                        }
+                        else
+                        {
+                            _LastError = "Instrument Busy";
+                            return ReturnCode.RETURN_FAIL;
+                        }
+
+                        break;
+
                     case nameof(_COMMANDS.START):
                         if(_atc.GetInstrumentState() == InstrumentState.IDLE ||
                             _atc.GetInstrumentState() == InstrumentState.STANDBY)
@@ -132,6 +259,9 @@ namespace VworksAtcPlugin
 
                 // Delay 3 seconds to make sure command completes.
                 Thread.Sleep(3000);
+
+                //CLOSE OUT THE CANCELATION TOKEN?  Or maybe need to fully reconnect...
+                _cancelToken.Cancel();
 
                 return ReturnCode.RETURN_SUCCESS;
             }
@@ -199,8 +329,28 @@ namespace VworksAtcPlugin
                         return "Pause protocol run";
                     case nameof(_COMMANDS.RESUME):
                         return "Resume protocol run";
+                    case nameof(_COMMANDS.SETTEMP):
+                        return "Set lid temperature";
                     case nameof(_COMMANDS.START):
-                        return "Start a protocol";
+
+                        string ProtocolName = string.Empty;
+
+                        foreach (Parameter parameter in command.Command.Parameters)
+                        {
+                            if (parameter.Name == PROTOCOL_FILE_PATH)
+                            {
+                                ProtocolName = parameter.Value;
+                            }
+                        }
+
+                        if (Verbose)
+                        {
+                            return "ATC Starting Protocol " + ProtocolName;
+                        }
+                        else
+                        {
+                            return "Start a protocol";
+                        }
                     case nameof(_COMMANDS.STOP):
                         return "Stop a protocol";
                     default:
@@ -535,6 +685,8 @@ namespace VworksAtcPlugin
 
         void WindowClosing(object sender, EventArgs e)
         {
+
+            //TODO: this just causes everything to crash, de-implement IWorksDiags
             this._IWorksController.OnCloseDiagsDialog(this);
         }         
 
