@@ -13,7 +13,7 @@ using static VworksAtcPlugin.VWorksXml;
 
 namespace VworksAtcPlugin
 {
-    public partial class ATCPlugin : IWorksDriver.IWorksDriver, CControllerClient, IWorksDiags, IDisposable
+    public partial class ATCPlugin : IWorksDriver.IWorksDriver, CControllerClient, IDisposable
     {
         #region IWorksDriver Members
 
@@ -687,7 +687,7 @@ namespace VworksAtcPlugin
         {
 
             //TODO: this just causes everything to crash, de-implement IWorksDiags
-            this._IWorksController.OnCloseDiagsDialog(this);
+            //this._IWorksController.OnCloseDiagsDialog(this);
         }         
 
         public ReturnCode CloseDiagsDialog()
