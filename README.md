@@ -1,6 +1,6 @@
 # VWorks ATC Plugin
 
-A VWorks plugin for the Thermo Fisher Scientific ATC (Automated Telescoping Conveyor).
+A VWorks plugin for the Thermo Fisher Scientific ATC (Automated Thermocycler).
 
 This project is designed to be compiled as a 32-bit (x86) COM-visible library for integration with Agilent VWorks.
 
